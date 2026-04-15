@@ -2,6 +2,40 @@
 <html lang="en">
 <html>
 
+<head>
+    <title>GitHub Pages</title>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a href="index.html" class="activeTab"><button class="stripButton">Home</button></a>
+        <a href="CISProjects/index.html" class="nonActiveTab"><button class="stripButton">Computer Science
+                Projects</button></a>
+        <a href="MNEProjects/" class="nonActiveTab"><button class="stripButton">Mechanical Engineering
+                Projects</button></a>
+    </div>
+    <main class="pageBody">
+        <div>
+            <h1 class="pageTitle">Portfolio Home</h1>
+            <p>By Morgan</p>
+        </div>
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><button>button 1</button></td>
+                        <td><a href="CISProjects/index.html" class="button-class"><button>take to sub page</button></a></td>
+                        <td><button>button 2</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">This should be below three buttons</td>
+                    </tr>
+                </tbody>
+            </table>
+    </main>
+</body>
+
 <style>
     h1,
     p {
@@ -19,33 +53,39 @@
         padding: 0.5rem 1rem;
 
     }
+
+    .stripButton {
+        border: none;
+        background: transparent;
+        outline: none;
+        padding: 0;
+
+    }
+
+    .navigation {
+        border-top: 10px solid white;
+    }
+
+    .navigation>* {
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 10px;
+        border-bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .nonActiveTab,
+    .nonActiveTab>* {
+        background-color: darkgray;
+    }
+
+    .activeTab,
+    .activeTab>* {
+        background-color: white;
+    }
 </style>
-<div>
 
-    <head>
-        <title>GitHub Pages</title>
-    </head>
-
-    <body>
-        <div>
-            <h1>Portfolio</h1>
-            <p>By Morgan</p>
-        </div>
-        <div>
-            <table>
-                <tbody>
-                    <tr>
-                        <th><button>button 1</button></td>
-                        <th><button>button 2</button></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">This should be below two buttons</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </body>
-
-</div>
 
 </html>

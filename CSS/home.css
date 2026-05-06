@@ -1,0 +1,19 @@
+    .about {
+        
+    }
+
+    .about>* {
+
+    }
+
+    table {
+        margin: 0 auto;
+        border-style: 4px dashed rgb(240, 59, 59);
+        border-collapse: collapse;
+    }
+
+    td {
+        text-align: center;
+        padding: 0.5rem 1rem;
+
+    }

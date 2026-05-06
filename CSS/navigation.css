@@ -1,0 +1,38 @@
+    .stripButton {
+        border: none;
+        background: transparent;
+        outline: none;
+        padding: 0;
+
+    }
+
+    body {
+        border: 0px;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .navigation {
+        border: 10px solid rgba(169, 169, 169, 0.5);
+        background-color: rgba(169, 169, 169, 0.5);
+    }
+
+    .navigation>* {
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 10px;
+        border-bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .nonActiveTab,
+    .nonActiveTab>* {
+        background-color: darkgray;
+    }
+
+    .activeTab,
+    .activeTab>* {
+        background-color: white;
+    }
